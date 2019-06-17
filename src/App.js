@@ -2,25 +2,46 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const contactValues = [{
+    name: "Peter",
+    phoneNumber: 9920826255
+},
+    {
+        name: "Leo",
+        phoneNumber: 8369576889
+    }];
+
+function contacts() {
+    return (
+        <tbody>
+        <tr className="contact">
+            <td>{contactValues[0].name}</td>
+            <td>{contactValues[0].phoneNumber}</td>
+        </tr>
+        </tbody>
+    )
 }
 
-export default App;
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+
+        {
+            contacts()
+        }
+
+    </table>
+    </div>
+    );
+    };
+    }
+
+    export default App;
