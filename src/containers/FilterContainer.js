@@ -6,21 +6,13 @@ export default class FilterContainer extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            contactValues: [{
-                name: "Peter",
-                phoneNumber: 9920826255
-            },
-                {
-                    name: "Leo",
-                    phoneNumber: 8369576889
-                }],
             filteredContacts: []
         }
 
     }
 
     filterByName(name){
-        const filteredContact = this.state.contactValues.filter((contact)=>{
+        const filteredContact = this.props.contactValues.filter((contact)=>{
             if(contact.name.startsWith(name)) return true;
 
             return false;

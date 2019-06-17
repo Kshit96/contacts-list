@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import PhoneBook from './components/PhoneBook';
-import FilterContainer from "./containers/FilterContainer";
+import ContactsContainer from "./containers/ContactsContainer";
 
 
 export default class App extends React.Component {
@@ -13,7 +11,7 @@ export default class App extends React.Component {
         return (
             <div>
                 <div>
-                    <FilterContainer />
+                    <ContactsContainer />
                 </div>
             </div>
         );

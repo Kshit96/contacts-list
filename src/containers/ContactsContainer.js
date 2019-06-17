@@ -1,4 +1,7 @@
 import React from "react";
+import Filter from "../components/Filter";
+import PhoneBook from "../components/PhoneBook";
+import FilterContainer from "./FilterContainer";
 
 export default class ContactsContainer extends React.Component {
     constructor(props) {
@@ -20,6 +23,15 @@ export default class ContactsContainer extends React.Component {
                 }
             ],
         }
+    }
+
+    render() {
+        return (
+            <div>
+                <PhoneBook contactValues={this.state.contactValues}/>
+                <FilterContainer contactValues={this.state.contactValues}/>
+            </div>
+        )
     }
 
 

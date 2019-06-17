@@ -11,7 +11,7 @@ import PhoneBook from "./components/PhoneBook";
 import Filter from "./components/Filter";
 
 
-describe('phoneBook',()=> {
+describe('App',()=> {
 
     it('renders without crashing', () => {
         const div = document.createElement('div');
