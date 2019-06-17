@@ -6,7 +6,8 @@ export default class phoneBook extends React.Component {
     }
     render() {
         const contacts = this.props.contactValues;
-        return <table>
+        return <div>
+            <table>
             <thead>
             <tr>
                 <th>Name</th>
@@ -22,6 +23,7 @@ export default class phoneBook extends React.Component {
             )))}
             </tbody>
         </table>
+        </div>
     }
 
 

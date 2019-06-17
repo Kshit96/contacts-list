@@ -7,8 +7,8 @@ import Adapter from 'enzyme-adapter-react-16';
 import {shallow} from 'enzyme';
 import sinon from 'sinon';
 import {mount} from 'enzyme';
-import PhoneBook from "./PhoneBook";
-import Search from "./Search";
+import PhoneBook from "./components/PhoneBook";
+import Filter from "./components/Filter";
 
 
 describe('phoneBook',()=> {
@@ -28,8 +28,8 @@ describe('phoneBook',()=> {
         expect(wrapper.find('.contact')).to.have.lengthOf(2);
     });
 
-    it('has a search bar', () => {
-        const wrapper = shallow(<Search/>);
-        expect(wrapper.find('.search')).to.have.lengthOf(1);
+    it('has a filter input text box', () => {
+        const wrapper = shallow(<Filter/>);
+        expect(wrapper.find('.filter')).to.have.lengthOf(1);
     });
 })
