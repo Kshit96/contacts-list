@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import phoneBook from './phoneBook';
+import PhoneBook from './PhoneBook';
+import PhoneBookContainer from "./PhoneBookContainer";
 
 
 export default class App extends React.Component {
@@ -20,23 +21,12 @@ export default class App extends React.Component {
         }
     }
 
-
     render() {
         return (
             <div>
-                <table>
-                    <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Phone Number</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {
-                        phoneBook(this.state.contactValues)
-                    }</tbody>
-
-                </table>
+                <div>
+                    <PhoneBookContainer contactValues={this.state.contactValues} />
+                </div>
             </div>
         );
     };
