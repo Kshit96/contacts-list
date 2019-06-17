@@ -12,36 +12,36 @@ const contactValues = [{
     }];
 
 function contacts() {
-    return (
-        <tbody>
-        <tr className="contact">
-            <td>{contactValues[0].name}</td>
-            <td>{contactValues[0].phoneNumber}</td>
+    return contactValues.map((contact, index) => ((
+
+        <tr key={index} className="contact">
+            <td>{contact.name}</td>
+            <td>{contact.phoneNumber}</td>
         </tr>
-        </tbody>
-    )
+
+    )))
 }
 
-class App extends React.Component {
+export default class App extends React.Component {
+
+
     render() {
         return (
             <div>
                 <table>
-                <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Phone Number</th>
-                </tr>
-            </thead>
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone Number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {
+                        contacts()
+                    }</tbody>
 
-        {
-            contacts()
-        }
-
-    </table>
-    </div>
-    );
+                </table>
+            </div>
+        );
     };
-    }
-
-    export default App;
+}

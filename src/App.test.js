@@ -14,7 +14,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('displays one row of name', ()=>{
+it('displays two rows of name', ()=>{
     const wrapper= shallow(<App />);
-    expect(wrapper.find('.contact')).to.have.lengthOf(1);
+    expect(wrapper.find('.contact')).to.have.lengthOf(2);
 });
