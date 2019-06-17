@@ -1,28 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import phoneBook from './phoneBook';
 
-const contactValues = [{
-    name: "Peter",
-    phoneNumber: 9920826255
-},
-    {
-        name: "Leo",
-        phoneNumber: 8369576889
-    }];
-
-function contacts() {
-    return contactValues.map((contact, index) => ((
-
-        <tr key={index} className="contact">
-            <td>{contact.name}</td>
-            <td>{contact.phoneNumber}</td>
-        </tr>
-
-    )))
-}
 
 export default class App extends React.Component {
+
+    constructor(props) {
+        super(props)
+        this.state = {
+            contactValues: [{
+                name: "Peter",
+                phoneNumber: 9920826255
+            },
+                {
+                    name: "Leo",
+                    phoneNumber: 8369576889
+                }]
+        }
+    }
 
 
     render() {
@@ -37,7 +33,7 @@ export default class App extends React.Component {
                     </thead>
                     <tbody>
                     {
-                        contacts()
+                        phoneBook(this.state.contactValues)
                     }</tbody>
 
                 </table>
