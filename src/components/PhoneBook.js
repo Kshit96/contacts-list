@@ -1,9 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class PhoneBook extends React.Component {
-    constructor(props){
-        super(props)
+
+    componentDidMount(){
+
     }
+
+
     render() {
         const contacts = this.props.contactValues;
         return <div>
@@ -27,4 +31,9 @@ export default class PhoneBook extends React.Component {
     }
 
 
+}
+
+PhoneBook.propTypes={
+    name: PropTypes.string,
+    phoneNumber: PropTypes.number
 }

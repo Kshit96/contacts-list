@@ -13,7 +13,7 @@ export default class FilterContainer extends React.Component {
 
     filterByName(name){
         const filteredContact = this.props.contactValues.filter((contact)=>{
-            if(contact.name.startsWith(name)) return true;
+            if(name!=="" && contact.name.startsWith(name)) return true;
 
             return false;
         });

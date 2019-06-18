@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b78fec-227c-48a3-97cf-b41d739fb5d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Filter.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddContact.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ContactsContainer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PhoneBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PhoneBook.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/ContactsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ContactsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/FilterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FilterContainer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilterContainer.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/PhoneBook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -35,39 +39,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PhoneBook.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/ContactsContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="30" selection-start-line="27" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/PhoneBook.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="26" selection-start-column="26" selection-end-column="26" />
@@ -76,10 +81,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/AddContact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="242">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AddContact.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -87,28 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/ContactsContainer.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/ContactsContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Filter.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="30">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -119,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
+            <state relative-caret-position="30">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -147,19 +153,25 @@
         <option value="$PROJECT_DIR$/src/PhoneBookContainer.js" />
         <option value="$PROJECT_DIR$/src/FilterContainer.js" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
-        <option value="$PROJECT_DIR$/src/components/PhoneBook.test.js" />
-        <option value="$PROJECT_DIR$/src/containers/FilterContainer.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/PhoneBook.js" />
-        <option value="$PROJECT_DIR$/src/containers/ContactsContainer.js" />
         <option value="$PROJECT_DIR$/src/components/Filter.test.js" />
+        <option value="$PROJECT_DIR$/src/components/Filter.js" />
+        <option value="$PROJECT_DIR$/src/components/PhoneBook.test.js" />
+        <option value="$PROJECT_DIR$/src/containers/ContactsContainer.test.js" />
         <option value="$PROJECT_DIR$/src/containers/FilterContainer.test.js" />
+        <option value="$PROJECT_DIR$/src/containers/FilterContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/AddContact.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/containers/ContactsContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/AddContact.test.js" />
+        <option value="$PROJECT_DIR$/src/components/PhoneBook.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -232,17 +244,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.phoneBook.should have a filter button">
-    <configuration name="phoneBook (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.AddContact.should callback addContact when values given">
+    <configuration name="AddContact.should callback addContact when values given" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/AddContact.test.js" />
+      <test-names>
+        <test-name value="AddContact" />
+        <test-name value="should callback addContact when values given" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactContainer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/PhoneBook.test.js" />
+      <test-file value="$PROJECT_DIR$/src/containers/ContactsContainer.test.js" />
       <test-names>
-        <test-name value="phoneBook" />
+        <test-name value="ContactContainer" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactContainer.renders AddContact component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/containers/ContactsContainer.test.js" />
+      <test-names>
+        <test-name value="ContactContainer" />
+        <test-name value="renders AddContact component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="FilterContainer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/containers/FilterContainer.test.js" />
+      <test-names>
+        <test-name value="FilterContainer" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -259,54 +312,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="phoneBook" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="phoneBook" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="phoneBook.should do a call back when filter value changed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Filter.test.js" />
-      <test-names>
-        <test-name value="phoneBook" />
-        <test-name value="should do a call back when filter value changed" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="phoneBook.should have a filter button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Filter.test.js" />
-      <test-names>
-        <test-name value="phoneBook" />
-        <test-name value="should have a filter button" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.phoneBook.should have a filter button" />
-        <item itemvalue="Jest.phoneBook.should do a call back when filter value changed" />
+        <item itemvalue="Jest.AddContact.should callback addContact when values given" />
+        <item itemvalue="Jest.ContactContainer.renders AddContact component" />
+        <item itemvalue="Jest.FilterContainer" />
+        <item itemvalue="Jest.ContactContainer" />
         <item itemvalue="Jest.phoneBook (2)" />
-        <item itemvalue="Jest.phoneBook (1)" />
-        <item itemvalue="Jest.phoneBook" />
       </list>
     </recent_temporary>
   </component>
@@ -321,49 +333,50 @@
       <option name="presentableId" value="Default" />
       <updated>1560763647620</updated>
       <workItem from="1560763649105" duration="4744000" />
-      <workItem from="1560769175271" duration="5917000" />
+      <workItem from="1560769175271" duration="21392000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="phoneBook_should_do_a_call_back_when_filter_value_changed - 2019.06.17 at 20h 45m 21s.xml">
-      <configuration name="phoneBook.should do a call back when filter value changed" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="ContactContainer - 2019.06.17 at 21h 26m 20s.xml">
+      <configuration name="ContactContainer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_do_a_call_back_when_filter_value_changed - 2019.06.17 at 20h 45m 47s.xml">
-      <configuration name="phoneBook.should do a call back when filter value changed" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="ContactContainer - 2019.06.17 at 21h 26m 38s.xml">
+      <configuration name="ContactContainer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_(2) - 2019.06.17 at 20h 46m 37s.xml">
-      <configuration name="phoneBook (2)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="FilterContainer - 2019.06.17 at 21h 28m 07s.xml">
+      <configuration name="FilterContainer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_do_a_call_back_when_filter_value_changed - 2019.06.17 at 20h 46m 59s.xml">
-      <configuration name="phoneBook.should do a call back when filter value changed" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="FilterContainer - 2019.06.17 at 21h 28m 20s.xml">
+      <configuration name="FilterContainer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_do_a_call_back_when_filter_value_changed - 2019.06.17 at 20h 47m 26s.xml">
-      <configuration name="phoneBook.should do a call back when filter value changed" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="ContactContainer_renders_AddContact_component - 2019.06.17 at 21h 29m 43s.xml">
+      <configuration name="ContactContainer.renders AddContact component" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_have_a_filter_button - 2019.06.17 at 20h 47m 58s.xml">
-      <configuration name="phoneBook.should have a filter button" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="ContactContainer_renders_AddContact_component - 2019.06.18 at 01h 30m 56s.xml">
+      <configuration name="ContactContainer.renders AddContact component" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_have_a_filter_button - 2019.06.17 at 20h 48m 18s.xml">
-      <configuration name="phoneBook.should have a filter button" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="AddContact_should_callback_addContact_when_values_given - 2019.06.18 at 02h 40m 27s.xml">
+      <configuration name="AddContact.should callback addContact when values given" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_have_a_filter_button - 2019.06.17 at 20h 49m 10s.xml">
-      <configuration name="phoneBook.should have a filter button" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="AddContact_should_callback_addContact_when_values_given - 2019.06.18 at 02h 41m 42s.xml">
+      <configuration name="AddContact.should callback addContact when values given" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_have_a_filter_button - 2019.06.17 at 20h 49m 47s.xml">
-      <configuration name="phoneBook.should have a filter button" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="AddContact_should_callback_addContact_when_values_given - 2019.06.18 at 02h 42m 57s.xml">
+      <configuration name="AddContact.should callback addContact when values given" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="phoneBook_should_have_a_filter_button - 2019.06.17 at 20h 50m 10s.xml">
-      <configuration name="phoneBook.should have a filter button" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="AddContact_should_callback_addContact_when_values_given - 2019.06.18 at 02h 45m 13s.xml">
+      <configuration name="AddContact.should callback addContact when values given" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10661000" />
+    <option name="totallyTimeSpent" value="26136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -373,7 +386,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,6 +428,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Filter.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -425,41 +455,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Filter.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PhoneBook.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Filter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="30" selection-start-line="27" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ContactsContainer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PhoneBook.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddContact.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -468,26 +522,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/ContactsContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="98">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/PhoneBook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FilterContainer.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

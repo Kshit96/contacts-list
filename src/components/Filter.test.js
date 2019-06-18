@@ -7,7 +7,7 @@ import Filter from "./Filter";
 describe('phoneBook',()=> {
     it('should have a filter button', () => {
         const wrapper =shallow(<Filter/>);
-        expect(wrapper.find('.filter').type()).toBe('input');
+        expect(wrapper.find('.filter')).toHaveLength(1);
     });
 
     it('should do a call back when filter value changed', () => {
