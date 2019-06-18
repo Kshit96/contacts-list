@@ -19,8 +19,8 @@ export default class ContactsContainer extends React.Component {
                     phoneNumber: 8369576889
                 },
                 {
-                    name: "Connie",
-                    phoneNumber: 9930520220
+                    name: null,
+                    phoneNumber: 9920520220
                 }
             ],
         }
@@ -44,11 +44,4 @@ export default class ContactsContainer extends React.Component {
     }
 
 
-}
-
-ContactsContainer.propTypes={
-    contactValues: PropTypes.exact({
-        name:PropTypes.string,
-        phoneNumber:PropTypes.number
-    }),
 }
