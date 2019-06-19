@@ -11,7 +11,9 @@ export default class App extends React.Component {
         return (
             <div>
                 <div>
+                  <Router>
                     <ContactsContainer />
+                  </Router>
                 </div>
             </div>
         );
