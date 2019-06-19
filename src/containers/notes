@@ -1,0 +1,60 @@
+
+
+Wednesday
+-Component Prop Type Validation
+	-basic validations for string, number, boolean
+	-node and element validation
+	-oneOf and OneOfType /multiple types
+	-collection types array & object
+	-.isRequired
+	-custom validations?
+
+-ask them to add age and gender to the json
+-ask them to validate string number oneOf oneOfType
+-make sure values are not empty, custom validations
+
+API CALL:
+	-error handling if api fails
+	-lifecycle
+	-fetch from api
+
+React router
+	-basic routing within a page to render selected elements
+	-nested routing
+	-routing with switch
+	
+HOCs
+
+Client Side Routing vs Server Side Routing
+SPA
+Client and Server Integration
+
+Alex
+Lee
+Connie
+
+9909794958
+More details
+
+
+-Flow
+	-what are the components we have and with what properties
+	-change phone number to number
+	-ask about what values we can pass into the component?
+	-what if i pass number in name and name in number?
+	-when you re-use components made by others, how would you know what kind of props need to be passed?
+	-you will have to read code and the business logic
+	-what can be done from a development environment perspective?
+	-ask if they know about propType validation if they dont know already
+	-let them guess what it is, or if they know explain
+	-share documentation for basic test of validation of string and number and name.isRequired
+	-review, refactor, discuss
+	-custom validations and their use, using 'name should not be empty' requirement
+
+
+-React Router
+	-Talk about Single Page Applications
+	-React Router
+		-Push States
+		-Browser Navigation History
+		-Navigation bar (static data) (tabs)

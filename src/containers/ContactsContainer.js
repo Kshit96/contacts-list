@@ -1,4 +1,5 @@
 import React from "react";
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import PhoneBook from "../components/PhoneBook";
 import FilterContainer from "./FilterContainer";
 import AddContact from "../components/AddContact";
@@ -7,7 +8,7 @@ import PropTypes from 'prop-types';
 export default class ContactsContainer extends React.Component {
     constructor(props) {
         super(props)
-        this.addContact=this.addContact.bind(this);
+        this.addContact = this.addContact.bind(this);
         this.state = {
             contactValues: [
                 {
@@ -19,7 +20,7 @@ export default class ContactsContainer extends React.Component {
                     phoneNumber: 8369576889
                 },
                 {
-                    name: null,
+                    name: "Connie",
                     phoneNumber: 9920520220
                 }
             ],
@@ -27,19 +28,21 @@ export default class ContactsContainer extends React.Component {
 
     }
 
-    addContact = (name,phoneNumber)=>{
-        const newContact= {name: name, phoneNumber: phoneNumber};
-        const existingContact=this.state.contactValues;
+    addContact = (name, phoneNumber) => {
+        const newContact = {name: name, phoneNumber: phoneNumber};
+        const existingContact = this.state.contactValues;
         existingContact.push(newContact);
         this.setState({contactValues: existingContact});
     }
+
     render() {
         return (
-            <div>
-                <AddContact addContact={this.addContact}/>
-                <PhoneBook contactValues={this.state.contactValues}/>
-                <FilterContainer contactValues={this.state.contactValues}/>
-            </div>
+                    <div>
+                        <AddContact addContact={this.addContact}/>
+                        <PhoneBook contactValues={this.state.contactValues}/>
+                        <FilterContainer contactValues={this.state.contactValues}/>
+                    </div>
+
         )
     }
 

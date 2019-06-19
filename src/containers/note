@@ -1,0 +1,31 @@
+
+10 June 2019
+
+Error Handling and closure - factorial
+
+11 June 2019
+
+9:30 to 10:30 - promises anbd callback
+	-seconds clock/timer =>setTimeout
+10:45-12:00 - HTML
+	-HTML
+	-Creating HTML elements, what are they used for
+	-Form creation
+	-Form validation
+2:00 - 3:30
+	-Front end JS
+	-demo - Hello World -with name
+	-bmi calculator (test driven) ex 1 - form which takes height, weight, prints bmi
+
+4 - 4:30
+	-ex 2 bmi  calculator with model view separation - two way data binding - when you start typing it should start changing output
+
+12 June 2019
+
+9:30 to 10:30
+	-bmi list of people/list of data
+10:45 to 2:45
+	-api call
+
+2:45 - 5:00
+	-create a notifiable view, model notifies view, model adds deleted person	

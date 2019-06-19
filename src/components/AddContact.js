@@ -5,7 +5,7 @@ export default class AddContact extends React.Component {
         super(props)
         this.state = {
             name: '',
-            phoneNumber: '',
+            phoneNumber: 0,
         }
         this.onNameUpdate = this.onNameUpdate.bind(this);
         this.onNumberUpdate = this.onNumberUpdate.bind(this);
@@ -16,7 +16,7 @@ export default class AddContact extends React.Component {
     }
 
     onNumberUpdate(event) {
-        this.setState({phoneNumber: event.target.value});
+        this.setState({phoneNumber: parseInt(event.target.value)});
     }
 
 
